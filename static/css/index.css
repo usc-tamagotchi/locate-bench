@@ -134,4 +134,17 @@ body {
 }
 
 
+.four-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
 
+
+.four-images div {
+    width: 40%;
+    margin: 2%;
+}
